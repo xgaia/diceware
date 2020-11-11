@@ -2,7 +2,7 @@
 // provided by Sebastian Straub, derived from from work of the Leibniz-Institut
 // für Deutsche Sprache, which was published under CC BY-NC 3.0
 // license: CC BY-NC 3.0
-var german = {
+var german_dereko = {
   11111: "abbau",
   11112: "abbauen",
   11113: "abbiegen",
