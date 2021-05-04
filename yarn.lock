@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-big.js@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/big.js/-/big.js-6.0.2.tgz#af54d7678630aa4ce5d62f43ed44d1a3c9faf803"
+big.js@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/big.js/-/big.js-6.1.1.tgz#63b35b19dc9775c94991ee5db7694880655d5537"
 
 bootstrap-validator@^0.11.9:
   version "0.11.9"
