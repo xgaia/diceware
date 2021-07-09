@@ -50,22 +50,26 @@ locally. Due to the security methods in use such as Subresource Integrity,
 you'll need to serve the application from a small local web server and not from
 a `file:///` URL.
 
+One of the simplest to install and use for this purpose is
+[serve](https://github.com/vercel/serve#readme).
+
 Example:
 
-```
+```sh
 cd diceware
 
-# start a tiny Python web server
-# many operating systems come with
-# Python pre-installed.
-python -m SimpleHTTPServer 8080
+$ npx serve
 
-# visit http://localhost:8080
+   ┌────────────────────────────────────────┐
+   │                                        │
+   │   Serving!                             │
+   │                                        │
+   │   Local:  http://localhost:5000        │
+   │                                        │
+   │   Copied local address to clipboard!   │
+   │                                        │
+   └────────────────────────────────────────┘
 ```
-
-Another good option is to install `caddy` from
-[https://caddyserver.com/](https://caddyserver.com/) and run that command in
-this directory.
 
 ### Tin Foil Hat Version
 
